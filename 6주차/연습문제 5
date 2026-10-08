@@ -1,0 +1,8 @@
+pi = 3.14
+
+r = int(input())
+
+area = r * r * pi
+
+print("PI = %.2f" % pi)
+print("Area = %d * %d * %.2f = %.2f" % (r, r, pi, area))
