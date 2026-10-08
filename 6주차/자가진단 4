@@ -1,0 +1,4 @@
+dad_name, dad_age = input().split()
+bro_name, bro_age = input().split()
+
+print(dad_name + "'s age - " + bro_name + "'s age =", int(dad_age) - int(bro_age))
